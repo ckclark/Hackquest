@@ -1,0 +1,1 @@
+open http://hackquest.com/modules/HackQuest/hacking/2442/2442.php.PreLock

@@ -1,0 +1,18 @@
+RegExp("Z.*[a-z][fh-z]"                     ".*[d-i](?=.*)g")
+RegExp(".*[G-Z].*"                          "[A-Z].+[f-s](?=.*)")
+RegExp("Z[3djes]r.*[fh-z]"                  "[A-Z].+[^i](?=.*)g")
+RegExp("Z[3djes]r.*[fh-z]"                  "[A-Z].+[^f](?=.*)g")
+RegExp("Z[3djes]r.*[fh-z]"                  "[\\D]*g")
+RegExp("Z[3djes]r\\w*[fh-z]"                ".*[n-o]g")
+//RegExp("Z.*ng")
+RegExp(".*([^76]|[^A-Za]).*"                "[^a-z][^x]{2}g")
+RegExp("Z[3djes]r.*"                        "[^a-z][A-Bhijk].*")
+RegExp("Z[3djes]r.*[fh-z]"                  ".*[^klmadj][^dkdcewl]g")
+RegExp("Z[3djes]r.*[fh-z]"                  ".*[^BhA][^dkdcewl]g")
+RegExp("Z.*([m-r])[gDaSod].*"               ".*[g-n]*")
+RegExp("Z.*[amzrbrqw][fh-z]"                "[^A-V]+[g-n].*")
+RegExp("Z[3djes]\\w*[fh-z]"                 "[^XYZ]\\w+[^ghijklm]g")
+RegExp("Z.*e.*g")
+
+[Z]
+[3djes]

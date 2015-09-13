@@ -1,0 +1,7 @@
+hackquest.com | ls
+hackquest.com | ls -a protected
+hackquest.com | echo ckclark:rEK1ecacw.7.c > protected/.htpasswd
+
+see http://hackquest.com/modules/HackQuest/hacking/1/protected/solution.php
+
+ckclark:password

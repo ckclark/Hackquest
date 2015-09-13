@@ -1,0 +1,9 @@
+RegExp("Z.*[a-z][fh-z]")
+RegExp(".*[G-Z].*"
+RegExp("Z[3djes]r.*[fh-z]")
+RegExp("Z[3djes]r\\w*[fh-z]")
+RegExp("Z[3djes]r.*[fh-z]")
+RegExp("Z.*([m-r])[gDaSod].*")
+RegExp("Z.*e.*[amzrbrqw][fh-z]")
+RegExp("Z[3djes]\\w*[fh-z]")
+"Zero"

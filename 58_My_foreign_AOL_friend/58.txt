@@ -1,0 +1,2 @@
+Using Russian proxy with DNS name ending with '.com' and 
+Write User-Agent: AOL 5000 MS-DOS

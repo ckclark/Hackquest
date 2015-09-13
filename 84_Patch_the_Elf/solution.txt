@@ -1,0 +1,24 @@
+use gdb and skip the jne part
+
+objdump -d patch | vim -c "set ft=asm" - 
+
+
+gdb patch 
+
+(gdb) x/3i *main+39 
+   0x80484c7 <main+39>: cmpl   $0xffffffff,-0x4(%ebp) 
+   0x80484cb <main+43>: jne    0x80484f1 <main+81> 
+   0x80484cd <main+45>: add    $0xfffffff8,%esp 
+
+(gdb) b*main+39 
+Breakpoint 1 at 0x80484c7 
+
+(gdb) r 
+Breakpoint 1, 0x080484a0 in main () 
+
+(gdb) j*main+45 
+Continuing at 0x80484cd. 
+The secret password is: bytesaber 
+
+Program exited normally. 
+(gdb) q 

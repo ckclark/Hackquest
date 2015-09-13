@@ -1,0 +1,2 @@
+The score field is editable. lol
+password: Atari-72

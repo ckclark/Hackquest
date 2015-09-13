@@ -1,0 +1,10 @@
+RegExp(".*[d-i](?=.*)ng")
+RegExp("W.+[^i](?=.*)ng")
+RegExp("W.+[^f](?=.*)ng")
+RegExp("W[\\D]*ing")
+RegExp("W.*ing")
+RegExp("W.*ing")
+RegExp("W.*[g-n]*ng")
+RegExp("W[^A-V]*[g-n].*")
+RegExp("W\\w+ng")
+"Wing"

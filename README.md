@@ -1,2 +1,2 @@
 # Hackquest
-Hackquest solutions.
+Hackquest solutions
